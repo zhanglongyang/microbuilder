@@ -22,7 +22,7 @@ lazy val `microbuilder-js` = project dependsOn `microbuilder-core`
 
 ghpages.settings
 
-git.remoteRepo := "git@github.com:ThoughtWorksInc/microbuilder.git"
+git.remoteRepo := "git@github.com:zhanglongyang/microbuilder.git"
 
 git.gitCurrentBranch := "master"
 
