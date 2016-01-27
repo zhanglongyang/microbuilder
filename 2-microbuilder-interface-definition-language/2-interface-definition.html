@@ -548,9 +548,6 @@
         .project-tagline {
           font-size: 1rem; } }
 
-      .container {
-        display: table;
-      }
       .container :first-child {
         margin-top: 0; }
       .container img {
@@ -651,17 +648,18 @@
         border: 0; }
 
         .toc {
-          display: table-cell;
+          float: left;
           width: 35%;
         }
         .content {
-          display: table-cell;
           margin-left: 30px;
+        }
+        .clear {
+          clear: both;
         }
 
       @media screen and (min-width: 64em) {
         .container {
-          max-width: 64rem;
           margin: 0 auto;
           font-size: 1.1rem; } }
 
@@ -972,6 +970,7 @@ interface IMyOtherService {
                 <p>See <a href="4-annotations.html">Annotations</a> for more information about mapping between RESTful JSON API and methods.</p>
 
             </div>
+            <div class="clear"></div>
         </div>
 
     </div>
