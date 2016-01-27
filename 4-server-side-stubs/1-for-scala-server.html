@@ -551,15 +551,6 @@
       .container {
         display: table;
       }
-
-      .span4, .span8 {
-        display: table-cell
-      }
-
-      .span4 {
-        width: 35%;
-      }
-
       .container :first-child {
         margin-top: 0; }
       .container img {
@@ -659,21 +650,27 @@
         background-color: #eff0f1;
         border: 0; }
 
+        .toc {
+          display: table-cell;
+          width: 35%;
+        }
+        .content {
+          display: table-cell;
+          margin-left: 30px;
+        }
+
       @media screen and (min-width: 64em) {
         .container {
           max-width: 64rem;
-          padding: 2rem 6rem;
           margin: 0 auto;
           font-size: 1.1rem; } }
 
       @media screen and (min-width: 42em) and (max-width: 64em) {
         .container {
-          padding: 2rem 4rem;
           font-size: 1.1rem; } }
 
       @media screen and (max-width: 42em) {
         .container {
-          padding: 2rem 1rem;
           font-size: 1rem; } }
 
       .site-footer {
@@ -826,7 +823,7 @@
 
         <!-- Docs nav -->
         <div class="row">
-            <div class="span4" >
+            <div class="toc" >
 
                 <ul class="nav nav-list affix">
                     <div class="toc">
@@ -923,7 +920,7 @@
 
             </div>
 
-            <div class="span8" id="top">
+            <div class="content" id="top">
 
                 
                 <h1 id="for-scala-server" class="title">For Scala server</h1>
