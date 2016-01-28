@@ -1,3 +1,0 @@
-# Haxedoc
-
-(To be continued)
