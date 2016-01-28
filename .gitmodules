@@ -1,0 +1,27 @@
+[submodule "project/sbt-microbuilder"]
+	path = project/sbt-microbuilder
+	url = https://github.com/ThoughtWorksInc/sbt-microbuilder.git
+[submodule "hamu"]
+	path = hamu
+	url = https://github.com/ThoughtWorksInc/hamu.git
+[submodule "auto-parser"]
+	path = auto-parser
+	url = https://github.com/ThoughtWorksInc/auto-parser.git
+[submodule "json-stream-core"]
+	path = json-stream-core
+	url = https://github.com/ThoughtWorksInc/json-stream-core.git
+[submodule "project/sbt-haxe"]
+	path = project/sbt-haxe
+	url = https://github.com/ThoughtWorksInc/sbt-haxe.git
+[submodule "microbuilder-sample"]
+	path = microbuilder-sample
+	url = https://github.com/ThoughtWorksInc/microbuilder-sample.git
+[submodule "microbuilder-play"]
+	path = microbuilder-play
+	url = https://github.com/ThoughtWorksInc/microbuilder-play.git
+[submodule "microbuilder-core"]
+	path = microbuilder-core
+	url = https://github.com/ThoughtWorksInc/microbuilder-core.git
+[submodule "microbuilder-js"]
+	path = microbuilder-js
+	url = https://github.com/ThoughtWorksInc/microbuilder-js.git
